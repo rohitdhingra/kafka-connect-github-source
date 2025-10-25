@@ -52,7 +52,7 @@ public class GitHubSourceTaskTest {
             Issue issue = Issue.fromJson(jsonObject);
             assertNotNull(issue);
             assertNotNull(issue.getNumber());
-            assertEquals(2072, issue.getNumber().intValue());
+            assertEquals(2208, issue.getNumber().intValue());
         }
     }
 }
